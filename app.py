@@ -209,7 +209,7 @@ if submit_button:
             polar=dict(
                 radialaxis=dict(
                     visible=True,
-                    range=[0, 250] # Fixed range to keep chart stable
+                    range=[0, 150] # Fixed range to keep chart stable
                 )),
             showlegend=True,
             margin=dict(l=50, r=50, t=30, b=30) # Compact layout
